@@ -1,0 +1,1 @@
+You can search the data set below using the "Search" bar at the top, or filter the columns by putting in keywords below each column header. You can also filter the age groups using the dropdown menu below. To download the full dataset, click the "Download full data" button below. To download your custom filtered data set, click "Download filtered data".
