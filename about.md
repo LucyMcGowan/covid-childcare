@@ -6,7 +6,7 @@ This application was developed by [Lucy D'Agostino McGowan](https://twitter.com/
 
 #### What is this? Where can I learn more?	
 
-This is crowd-sourced data collection effort spearheaded by the team at [COVID-Explained](https://explaincovid.org), and pEmily Oster](https://emilyoster.net) at Brown Unversity. You can find details about the data collection [here](https://explaincovid.org/kids/covid-19-and-children-our-crowd-sourced-data/).
+This is crowd-sourced data collection effort spearheaded by the team at [COVID-Explained](https://explaincovid.org), and [Emily Oster](https://emilyoster.net) at Brown Unversity. You can find details about the data collection [here](https://explaincovid.org/kids/covid-19-and-children-our-crowd-sourced-data/).
 	
 #### Is the data collection random?	
 
@@ -22,7 +22,7 @@ There is a summary page, which we produce based on the data we have. We've pulle
 	
 #### How can I get my institution in here?	
 
-Please fill out the baseline survey in the "Add data" tab!
+Please fill out the baseline survey in the "Add to the database" tab!
 	
 #### How can I get in touch with you?	
 
