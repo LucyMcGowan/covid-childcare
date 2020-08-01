@@ -19,6 +19,7 @@ function(input, output, session) {
 
   ## Summary ----
   summary <- d %>%
+    filter(`Open?` == "Yes") %>%
     group_by(`Week of`) %>%
     summarise(
       `Number of Locations` = sum(
@@ -51,6 +52,7 @@ function(input, output, session) {
   ## Texas, Arizona, Florida, California ----
 
   tx_az_fl_ca <- d %>%
+    filter(`Open?` == "Yes") %>%
     filter(State %in% c("Texas", "Arizona", "Florida", "California")) %>%
     group_by(`Week of`) %>%
     summarise(
@@ -102,7 +104,7 @@ function(input, output, session) {
       filename = glue("{Sys.Date()}-covid-childcare-filtered-data.csv"),
       content = function(file) {
         write.csv(
-          out_d[input[["df_rows_all"]], ],
+          out_d()[input[["df_rows_all"]], ],
           file
         )
       }

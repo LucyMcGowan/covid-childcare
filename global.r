@@ -28,10 +28,11 @@ fix_data <- function(d) {
       `Week of` = rep(dates, length.out = nrow(.)),
       .before = "Open?"
     ) %>%
-    # mutate(`Age Ranges` = str_split(`Age Ranges`, ",")) %>%
-    # unnest(cols = `Age Ranges`) %>%
-    # mutate(dummy = "Yes") %>%
-    # pivot_wider(names_from = `Age Ranges`, values_from = dummy, values_fill = "--") %>%
     mutate(`Type of Institution` = factor(`Type of Institution`)) %>%
-    replace_na(list(`Open?` = "--"))
+    mutate(State = factor(State)) %>%
+    mutate(County = factor(County)) %>%
+    replace_na(list(`Open?` = "--")) %>%
+    mutate(`Open?` = factor(`Open?`))
+
 }
+
