@@ -82,6 +82,10 @@ dashboardPage(
         tabName = "summary",
         h3("All Settings"),
         dataTableOutput("summary"),
+        h3("Camps Only"),
+        dataTableOutput("camps"),
+        h3("Larger than 50 Children"),
+        dataTableOutput("large"),
         h3("Texas, Arizona, Florida, California"),
         dataTableOutput("tx_az_fl_ca")
       ),

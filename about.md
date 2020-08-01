@@ -11,7 +11,7 @@ This is crowd-sourced data collection effort spearheaded by the team at [COVID-E
 #### Is the data collection random?	
 
 No; institutions volunteer to be part of this.  
-	
+
 #### What kind of locations are you collecting data from?
 
 We are collecting data from all child care settings: home care, formal child care centers, camps, schools and others.  The age range is birth through 18. We include any location which reports their total population is 5 or more children when full.
